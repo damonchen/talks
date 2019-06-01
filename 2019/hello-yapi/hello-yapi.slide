@@ -1,0 +1,77 @@
+Hello YAPI
+YAPI简单入门
+
+
+damon chen
+2019-06-01
+
+
+* 简介
+
+- 去哪儿构建的API管理平台
+- 类似postman的接口调试
+- 基于node和mongodb
+- 支持swagger导入
+- 开源 https://github.com/ymfe/yapi
+- 可以自己开发插件
+- 有不少大厂在使用（阿里，腾讯，百度，美团等）
+
+
+
+* 插件安装
+
+只能在chrome上使用，需要安装chrome的插件。
+
+
+*** chrome商店插件
+
+.caption https://chrome.google.com/webstore/detail/cross-request/cmnlfmgbjmaciiopcgodlhpiklaghbok?hl=en-US
+
+
+*** ctx插件
+
+.caption http://10.0.0.124:4000/api/interface/download_crx
+
+
+
+* 项目及使用
+
+.image imgs/yapi-project.png
+
+- 个人空间中创建组
+- 然后添加项目
+
+
+* 通过swagger导入api
+
+.image imgs/swagger-import.png
+
+
+* 配置环境
+
+.image imgs/environment.png
+
+
+* 测试
+
+
+.image imgs/auto-test.png
+
+
+* 自动化测试
+
+- 变量参数： $.{key}.{params|body}.{path}
+- 断言变量：assert, status, params, body	, header, records, log
+- 服务器端自动化
+
+
+
+
+
+* 参考
+
+- [[https://github.com/ymfe/yapi][github]]
+- [[https://yapi.ymfe.org/documents/index.html][教程]]
+
+
+
